@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+    box-sizing: border-box;
+}
+.first_section{
+    background-color: #163A24;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+.nav_item{
+    list-style: none;
+    margin-right: 24px;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+.nav_btn{
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: none;
+    background-color: #198C36;
+    color: white;
+    cursor: pointer;
+}
+.nav_link-btn{
+    text-decoration: none;
+    color: white;
+ }
+/* show section qismi uchun */
+.show_section{
+    margin-bottom: 80px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.show_items{
+    margin-top: 80px;
+}
+.header_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    margin-bottom: 20px;
+}
+.clerksy_info{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+/* HR_section qismi uchun */
+
+.HR_section{
+    margin-bottom: 70px;
+}
+.hr_box{
+    display: flex;
+    justify-content: center;
+}
+.about_hr{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.hr_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 30px;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+/* clerksy section qismi uchun */
+.clerksy_section{
+    margin-bottom: 80px;
+}
+.clerksy_box{
+    display: flex;
+    justify-content: center;
+}
+.clerksy_describe{
+    margin-top: 70px;
+    margin-right: 70px;
+}
+.clerksy_describe-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+
+/* parter section qismi uchun */
+.partner_section{
+    margin-bottom: 90px;
+}
+.partner_section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 40px;
+}
+.logo_list{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_item{
+    list-style: none;
+    padding: 10px;
+    border: none;
+}
+.logo_item:hover{
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 8px 6px 2px 1px rgba(75, 75, 95, 0.1);
+    transform: translate3d(12px, 5px, 10px);
+}
+
+/* personnel section qismi uchun */
+.personnel_section{
+    background-color: #163A24;
+}
+.personnel_about-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 80px;
+    padding-top: 30px;
+}
+.personnel_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.personnel_list p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+.personnel_list-item{
+    list-style: none;
+}
+.frame_pic{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* employyes_section qismi uchun */
+.employyes_section{
+    background: #F2EFE6;
+    margin-bottom: 70px;
+    padding-bottom: 60px;
+}
+.employyes_section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    padding-top: 60px;
+}
+.employyes_section-info{
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 30px;
+}
+/* solution_section qismi uchun */
+.solution_section{
+    margin-bottom: 70px;
+}
+.solution_box{
+    display: flex;
+    justify-content: center;
+}
+.adaptation_info{
+    margin-top: 80px;
+    margin-right: 70px;
+}
+.adaptation_info-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+.adaptation_info-about{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+/* advice section qismi uchun */
+.advice_section{
+    margin-bottom: 90px;
+}
+.advice_section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+.advice_section-info{
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-bottom: 15px;
+}
+.advice_boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.advice_card{
+    width: 353px;
+    height: 393px;
+    padding: 40px 45px;
+    box-shadow: 4px 2px 2px 1px rgba(37, 37, 44, 0.1);
+    border-radius: 10px;
+}
+.advice_card:hover{
+    width: 353px;
+    height: 430px;
+    transition: 1s;
+    transform: translate3d(8px, 12px, 15px);
+    box-shadow: 8px 6px 2px 1px rgba(75, 75, 95, 0.1);
+}
+.advice_card h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #163A24;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.info_lists li{
+    margin-bottom: 10px;
+    color: #163A24;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* help section qismi uchun */
+.help_section{
+    background-color: #F2EFE6;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.direction_box{
+    /* margin: 0 auto; */
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.direction_box h3{
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 15px;
+}
+.direction_box p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+.help_list{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 50px;
+}
+.help_list li{
+    width: 260px;
+    list-style: none;
+}
+.direction_logo{
+    width: 75px;
+}
+.help_list p{
+    color: #163A24;
+    margin-bottom: 10px;
+}
+span{
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #163A24;
+}
+.direction_logo{
+    padding-left: 50px;
+}
+.help_btn{
+   margin-left: 40%;
+   padding: 10px 25px;
+   border-radius: 20px;
+   border: none;
+   background-color: #198C36;
+}
+.help_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* book section  qismi uchun */
+.book_section{
+    margin-bottom: 80px;
+}
+.hr_books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download_book{
+    margin-right: 90px;
+}
+.download_book h3{
+    color: #163A24;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.download_book p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+.download_btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #198C36;
+    border: none;
+    cursor: pointer;
+}
+.download_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* connection section qismi uchun */
+.connection_section{
+    background-color:#163A24;
+    background-image: url("../img/leafs.png");
+     background-repeat: no-repeat;
+    /* background-size: cover;  */
+     background-position: left bottom; 
+}
+.started_box{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    height: 415px;
+}
+.started_box h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 20px;
+}
+.started_box p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+.connection_btn{
+    padding: 10px 25px;
+    background-color: #FAB5A0;
+    border-radius: 20px;
+    border: none;
+    color: #163A24;
+    cursor: pointer;
+}
+
+/* news section qismi uchun */
+.news_section{
+    height: 240px;
+    background-color: #F2EFE6;
+    margin-bottom: 50px;
+}
+.news_about{
+    display: flex;
+    align-items: center;
+    height: 240px;
+} .sign_up{
+    width: 600px;
+    /* padding-right: 100px; */
+    margin-right: 350px;
+} 
+.sign_up h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+.email p{
+   color: #163A24;
+}
+.text_input{
+    padding: 8px 190px 8px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.sign_btn{
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #198C36;
+    color: white;
+    cursor: pointer;
+}
+.email_link{
+    text-decoration: none;
+    color: #198C36;
+}
+
+/* footer qismi uchun */
+.footer_list{
+    display: flex;
+     justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 100px;
+}
+.footer_list li{
+    list-style: none;
+    color: #163A24;
+}
+.company_list{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #163A24;
+    /* margin-left: 90px; */
+}
+.website_list{
+    display: flex;
+    margin-bottom: 30px;
+}
+.website_list li{
+    padding-top: 45px;
+    margin-left: 50px;
+    color: #163A24;
+}
+
+.footer_item{
+    display: flex;
+    padding: 15px 0;
+    
+}
+.footer_item p{
+    margin-right: 110px;
+    color: #163A24;
+}
+.footer_list li{
+    margin-left: 40px;
+}
+.website_list li:hover{
+   transform: translate3d(5px, 2px, 10px);
+   transition: 1s;
+}
